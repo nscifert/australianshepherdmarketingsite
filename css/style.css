@@ -1,0 +1,376 @@
+:root {
+  --mustard: #e1ad01;
+  --olive: #808000;
+  --walnut: #927D6C;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  position: relative;
+  background-color: rgb(204, 197, 197);
+}
+
+ /* Navigation styling */
+ul#nav {
+  position: relative;
+}
+ul#nav > li.selected > a {
+  color: var(--mustard);
+  font-weight: bold;
+  font-size: 1.5em;
+}
+ul#nav > li {
+  display: inline-block;
+  padding: 10px;
+  padding-bottom: 3px;
+  margin: 0;
+  font-size: 1.2rem;
+}
+ul#nav > li:not(.selected):not(#nav_indicator):hover {
+  color: var(--olive);
+  border-bottom: 3px solid var(--olive);
+}
+ul#nav > li:not(#nav_indicator) {
+  border-bottom: 3px solid #ddd;
+  cursor: pointer;
+  transition-duration: 0.5s, 0.5s;
+  transition-property: color, border-color;
+  transition-delay: 0.1s, 0.1s;
+}
+ul#nav > li#nav_indicator {
+  position: absolute;
+  display: inline-block;
+  width: 0px;
+  padding: 0;
+  background-color: var(--mustard);
+  bottom: 0;
+  height: 3px;
+  transition-property: left, width;
+  transition-duration: 0.5s, 0.5s;
+}
+/* Navigation bar links for non active link */
+nav > ul > li > a {
+  color: var(--olive);
+  font-size: 1.5em;
+  font-family: Ink Free, Segeo Print, serif;
+}
+nav > ul > li > a:hover {
+  color: var(--olive);
+}
+
+/* Carousel formatting */
+.carousel img {
+  margin: auto;
+  width: auto;
+  height:550px !important;  
+}
+.carousel-inner{
+  width: auto;
+  margin: auto;
+  max-height: 600px !important;
+}
+
+/* Body Styling */
+#logo-block {
+  float: left;
+}
+section {
+  margin: 10px 5% 10px;
+}
+section > h1 {
+  color: var(--walnut);
+  padding: 10px;
+  font-size: 3em;
+  text-shadow: 2px 2px black;
+  font-family: MV Boli, Segeo Print, serif;
+}
+section >  h2 {
+  color: var(--olive);
+  padding: 10px;
+  font-size: 2.5em;
+  font-family: MV Boli, Segeo Print, serif;
+
+}
+hr {
+  border: none;
+  height: 3px;
+  background-color: var(--walnut);
+}
+
+/* Footer Styling */
+footer {
+  bottom: 0px;
+  text-align: center;
+  width: 100%;
+  color: var(--walnut)
+}
+footer > p > a {
+  color: var(--olive);
+}
+footer > p > a:hover {
+  color: var(--mustard);
+  font-weight: bold;
+}
+
+/* Form Styling */
+#form {
+  background-color: var(--walnut);
+  background-position: center;
+  display: inline-block;
+  border-radius: 25px;
+  padding: 25px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.formtext {
+  color: var(--mustard);
+  font-weight: bold;
+  text-align: left;
+  width:100%;
+}
+#send {
+  background-color: var(--olive);
+  color: var(--mustard);
+  border-color: var(--olive);
+  border-style: outset;
+  border-width: 2px;
+  font-weight: bold;
+}
+
+/* Testing Area Below */
+.contactlist > i {
+  list-style-type: none;
+  display: inline;
+  margin: 10px;
+  padding: 5px;
+  color: var(--olive);
+}
+.contactlist {
+  font-weight: bold;
+  color: var(--walnut)
+}
+
+.contactlist > a {
+  color: var(--walnut)
+}
+
+.about > div {
+  font-size: 2.0em;
+  color: var(--walnut);
+  text-shadow: 1px 1px rgb(90, 65, 44);
+  text-align: left;
+  font-family: Garamond, 'Georgia', serif;
+}
+
+h2 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.form-group > p {
+  font-size: 2.0em;
+  color: var(--walnut);
+  text-shadow: 1px 1px rgb(90, 65, 44);
+  text-align: left;
+  font-family: Garamond, 'Georgia', serif;;
+}
+
+.thumbnail > img {
+  border: 1px solid var(--walnut);
+  width: 161px;
+  height: 250px;
+  background-position: 50% 50%;
+  background-repeat: no-repat;
+  background-size: cover;
+  
+}
+
+.caption > strong > h3  {
+  font-size: 2.0em;
+  color: var(--mustard);
+  -webkit-text-stroke: 0.5px var(--walnut);
+  text-align: center;
+  padding: 0.2em;
+  font-family: Segoe Script, serif;
+}
+
+.caption > h3 {
+  font-size: 2.0em;
+  color: var(--mustard);
+  -webkit-text-stroke: 0.5px var(--walnut);
+  text-align: center;
+  padding: 0.2em;
+  font-family: Segoe Script, serif;
+}
+
+.logo_tagline {
+  font-family: Segoe Script, serif;
+}
+
+.caption > p {
+  font-family: Segoe Print, serif;
+  margin: 1em 1em 1em 6em;
+  text-align: justify;
+}
+
+header div strong {
+  color: var(--olive);
+}
+
+header div a {
+  color: var(--walnut);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
