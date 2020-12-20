@@ -50,6 +50,7 @@
         <!-- Dynamically generated dog information -->
         <section>
           <h2>Males</h2>
+        </section>
         <div class="row">
             <?php
             # reads the dog info and separates it
@@ -67,10 +68,10 @@
             }
             ?>
         </div>
-        </section>
         <hr />
         <section>
             <h2>Females</h2>
+        </section>
         <div class="row">
             <?php
             # reads the dog info and separates it
@@ -88,7 +89,6 @@
             }
             ?>
         </div>
-        </section>
         <hr />
         
     </main>

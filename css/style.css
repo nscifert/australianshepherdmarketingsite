@@ -176,26 +176,17 @@ h2 {
   font-family: Garamond, 'Georgia', serif;;
 }
 
-.thumbnail > img {
-  border: 1px solid var(--walnut);
+.thumbnail > img  {
+  border: 1px solid var(--mustard);
   width: 161px;
   height: 250px;
   background-position: 50% 50%;
   background-repeat: no-repat;
   background-size: cover;
-  
 }
+
 
 .caption > strong > h3  {
-  font-size: 2.0em;
-  color: var(--mustard);
-  -webkit-text-stroke: 0.5px var(--walnut);
-  text-align: center;
-  padding: 0.2em;
-  font-family: Segoe Script, serif;
-}
-
-.caption > h3 {
   font-size: 2.0em;
   color: var(--mustard);
   -webkit-text-stroke: 0.5px var(--walnut);
@@ -219,158 +210,5 @@ header div strong {
 }
 
 header div a {
-  color: var(--walnut);
+  color: var(--walnut)
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

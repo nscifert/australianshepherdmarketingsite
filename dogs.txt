@@ -1,5 +1,5 @@
 male,Red,../images/red.jpg,Playful,5
-male,Ranger,../images/ranger.jpg,Relaxed,4
+male,Ranger,./images/ranger.jpg,Relaxed,4
 male,Bama,../images/bama.jpg,Independent,7
 female,Bella,../images/bella.jpg,Playful,6
 female,Heart,../images/heart.jpg,Curious,9
